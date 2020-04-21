@@ -7,9 +7,32 @@
 /* END RESET */
 
 /* GENERAL RULEZ */
+*{
+  font-family: "Montserrat";
+  color: #4f6272;
+  font-size: 12px;
+  font-weight: 600;
+}
 .container {
   width: 1024px;
   margin: auto;
+}
+.menu li {
+  display: inline-block;
+  padding: 12px 10px;
+}
+.button {
+  color: white;
+  background: #fe765a;
+  border: 1px solid #fe765a;
+  margin-left: 10px;
+  border-radius: 4%;
+  padding: 12px 10px;
+  text-decoration: none;
+}
+.button.two {
+  color: #fe765a;
+  background: white;
 }
 .col-right {
   float: right;
@@ -22,57 +45,74 @@
 
 /** HEADER **/
 header {
-  height: 700px;
+  height: 800px;
 }
-
 /* MENU */
-header menu {
-  height: 10%;
+header nav {
+  height: 8%;
+  padding-top: 15px;
 }
-header menu.top {
+header nav.top {
   background: #f4f9fd;
+  height: 8%;
 }
-header menu.top img {
+header nav.bottom {
+  height: 8%;
+}
+header nav.top img {
   height: 20px;
   vertical-align: middle;
 }
-header menu.top .menu li {
-  display: inline-block;
-}
-header menu.top .menu .select {
+header nav.top .menu .select {
   border: none;
   background: none;
   margin-right: 15px;
 }
-header menu.top .menu p {
+header nav .top .menu .us {
   padding-left: 20px;
   border-left: 1px solid black;
 }
-
-header menu.top .container {
-  padding-top: 20px;
-  height: 100%;
-}
-header menu.top .container .search {
+header nav.top .container .search {
   border: none;
   background: none;
 }
-header menu.bottom  .container {
-  background: green;
-  height: 100%;
-}
-header menu.bottom {
-  height: 10%;
-}
 /* END MENU */
+
+/* HEAD */
 header .head {
   height: 70%;
   background: #fff2ee;
+  background-image: url(../img/jumbotron.png);
+  background-size: 100%;
 }
+
+header .head .container .cta {
+  height: 50%;
+  width: 50%;
+  padding-top: 60px;
+}
+header .head .container .cta h2 {
+  font-size: 45px;
+}
+header .head .container .cta a.button {
+  display: inline-block;
+  padding: 20px 40px;
+  margin: 25px 0;
+}
+header .head .container .cta:first-child p{
+  line-height: 2;
+}
+header .head .container .cta p:last-child {
+  font-size: 10px;
+}
+/* END HEAD */
+
+/* LINE */
 header .line {
   height: 10%;
   background: #afebe4;
   border-top: 2px solid black;
   border-bottom: 3px solid black;
 }
+/* END HEAD */
 /** END HEADER  **/
