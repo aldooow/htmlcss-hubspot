@@ -57,6 +57,10 @@ h2 {
   color: #fe765a;
   background: white;
 }
+.button.two:hover {
+  color: white;
+  background: #fe765a;
+}
 .col-right {
   float: right;
 }
@@ -218,7 +222,6 @@ main .box a {
   margin-top: 30px;
 }
 /* end main raw3 */
-
 /** END MAIN **/
 
 /** SECTION **/
@@ -226,6 +229,9 @@ section {
   color: white;
   text-align: center;
   background: #00aab8;
+}
+section h2 {
+  font-size: 40px;
 }
 section .container .clearfix{
   width: 100%;
