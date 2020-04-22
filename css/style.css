@@ -161,8 +161,9 @@ main .container .row2 .right {
 main .container .row2 .right ul li {
   padding: 20px 30px;
 }
-main .container hr {
-  width: 430px;
+main .container .row2 hr {
+  width: 450px;
+  vertical-align: middle;
 }
 
 /* end main raw2 */
@@ -235,5 +236,71 @@ section .container .clearfix .panel p {
 .panel img {
   height: 25px;
 }
-
 /** END SECTION **/
+
+/** FIGURE **/
+figure {
+  background: White;
+}
+/* FIGURE TOP */
+figure .container .top {
+  height: 250px;
+}
+figure .container .top .left {
+  width: 40%;
+  padding: 45px;
+}
+figure .container .top .right {
+  width: 60%;
+  padding: 45px;
+}
+figure .top .left {
+  width: 25%;
+}
+figure .top .left div {
+  padding: 15px 50px;
+  text-align: center;
+}
+figure .top .left div h2 {
+  font-size: 40px;
+}
+figure .top .right img {
+  width: 25%;
+  padding: 15px;
+}
+/* FIGURE TOP */
+
+/* BOTTOM */
+figure .container .bottom {
+  height: 400px;
+}
+figure .container .bottom .left {
+  width: 50%;
+  padding: 45px;
+}
+figure .container .bottom .left .cta h4 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+figure .container .bottom .left .cta a.button {
+  display: inline-block;
+  padding: 20px 40px;
+  margin: 25px 0;
+}
+figure .container .bottom .left .cta p:last-child {
+  font-size: 10px;
+}
+figure .container .bottom .right {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  padding: 45px;
+}
+figure .container .bottom .right img {
+  width: 250px;
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+}
+/* END FIGURE TOP */
+/** END FIGURE **/
