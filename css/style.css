@@ -67,10 +67,13 @@ header nav {
 }
 header nav.top {
   background: #f4f9fd;
-  height: 10%;
+  height: 8%;
+}
+header nav.top .button {
+  display: inline;
 }
 header nav.bottom {
-  height: 10%;
+  height: 8%;
 }
 header nav.top img {
   height: 20px;
@@ -93,12 +96,12 @@ header nav.top .container .search {
 
 /* HEAD */
 header .head {
-  height: 70%;
+  height: 75%;
   background: #fff2ee;
   background-image: url(../img/jumbotron.png);
-  background-size: 100%;
+  background-size: auto;
+  background-position: top;
 }
-
 header .head .container .cta {
   height: 50%;
   width: 50%;
@@ -108,11 +111,9 @@ header .head .container .cta h2 {
   font-size: 45px;
 }
 header .head .container .cta a.button {
-  display: inline-block;
   padding: 20px 40px;
   margin: 25px 0;
 }
-
 header .head .container .cta p:last-child {
   font-size: 10px;
 }
@@ -120,7 +121,7 @@ header .head .container .cta p:last-child {
 
 /* LINE */
 header .line {
-  height: 10%;
+  height: 9%;
   background: #afebe4;
   border-top: 2px solid black;
   border-bottom: 4px solid black;
@@ -135,7 +136,6 @@ main {
 main .container img {
   height: 150px;
 }
-
 main .container .row1 {
   text-align: center;
   padding: 50px 150px;
@@ -165,7 +165,6 @@ main .container .row2 hr {
   width: 450px;
   vertical-align: middle;
 }
-
 /* end main raw2 */
 
 /* main raw3 */
@@ -268,9 +267,9 @@ figure .top .right img {
   width: 25%;
   padding: 15px;
 }
-/* FIGURE TOP */
+/* END FIGURE TOP */
 
-/* BOTTOM */
+/* FIGURE BOTTOM */
 figure .container .bottom {
   height: 400px;
 }
@@ -302,5 +301,44 @@ figure .container .bottom .right img {
   right: 0;
   bottom: 100px;
 }
-/* END FIGURE TOP */
+/* END FIGURE BOTTOM */
 /** END FIGURE **/
+
+/** FOOTER**/
+footer {
+  background: #32495b;
+  color: white;
+}
+footer .top {
+  padding-top: 30px;
+}
+footer .top .list {
+  line-height: 2.5;
+  width: 25%;
+}
+footer .top .list ul li {
+  list-style-type: none;
+}
+footer .top .list ul li .social li {
+  display: inline-block;
+}
+footer .top .list ul li .social img {
+  height: 15px;
+  margin: 10px;
+}
+footer .center .menu {
+  text-align: center;
+}
+footer .center ul li {
+  margin: auto;
+  font-size: 15px;
+  display: inline-block;
+}
+footer .bottom {
+  padding-top: 25px;
+}
+footer .copyright {
+  color: white;
+  height: 10px;
+}
+/** END FOOTER **/
