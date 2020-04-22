@@ -133,6 +133,10 @@ header .line {
 main {
   background: #f4f9fd;
 }
+main .fas {
+  color: #fe765a;
+  margin-right: 10px;
+}
 main .container img {
   height: 150px;
 }
@@ -178,6 +182,9 @@ main .box{
   border-radius: 0.5%;
   width: calc(94%/3);
 }
+main .box ul {
+  text-align: left;
+}
 main .box:last-child {
   margin-right: 0px;
 }
@@ -194,8 +201,9 @@ main .box a {
   margin-top: 30px;
 }
 main li {
-  list-style-image: url(../img/icon/check-circle-solid.svg);
+  list-style-type: none;
 }
+
 /* end main raw3 */
 
 /** END MAIN **/
@@ -309,6 +317,10 @@ footer {
   background: #32495b;
   color: white;
 }
+footer .fab {
+  margin: 10px;
+  color: white;
+}
 footer .top {
   padding-top: 30px;
 }
@@ -326,6 +338,11 @@ footer .top .list ul li .social img {
   height: 15px;
   margin: 10px;
 }
+footer .top .list .button {
+  background: white;
+  color: #32495b;
+  border: none;
+}
 footer .center .menu {
   text-align: center;
 }
@@ -339,6 +356,5 @@ footer .bottom {
 }
 footer .copyright {
   color: white;
-  height: 10px;
 }
 /** END FOOTER **/
