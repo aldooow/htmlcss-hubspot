@@ -49,17 +49,14 @@ h2 {
   text-decoration: none;
   display: inline-block;
 }
-.button:hover {
-  color: #fe765a;
-  background: white;
-}
 .button.two {
   color: #fe765a;
   background: white;
 }
+.button:hover,
 .button.two:hover {
-  color: white;
-  background: #fe765a;
+  color: orange;
+  background: lightgrey;
 }
 .col-right {
   float: right;
@@ -72,7 +69,7 @@ h2 {
 
 /** HEADER **/
 header {
-  height: 800px;
+ height: 810px;
 }
 /* MENU */
 header nav {
@@ -97,8 +94,10 @@ header nav.top .menu .select {
   border: none;
   background: none;
   margin-right: 15px;
+  font-family: font-family: "Montserrat";
+  color: #4f6272;
 }
-header nav .top .menu .us {
+header nav.top .menu li .us {
   padding-left: 20px;
   border-left: 1px solid black;
 }
@@ -233,10 +232,14 @@ section {
 section h2 {
   font-size: 40px;
 }
-section .container .clearfix{
-  width: 100%;
+section .container .tittle {
+  padding-top: 40px;
 }
-section .container .clearfix .panel {
+section .container .megabox {
+  width: 100%;
+  padding: 40px 0;
+}
+section .container .megabox .panel {
   width: 25%;
   margin: 0px;
   border: 1px solid white;
@@ -244,22 +247,16 @@ section .container .clearfix .panel {
   border-top: none;
   border-left: none;
 }
-section .container .clearfix .panel:nth-child(1n+5) {
+section .container .megabox .panel:nth-child(1n+5) {
   border-bottom: none;
 }
-section .container .clearfix .panel:nth-child(4n+4) {
+section .container .megabox .panel:nth-child(4n+4) {
   border-right: none;
 }
-section .container .tittle {
-  padding-top: 40px;
+section .container .megabox .panel p {
+  font-size: 12px;
 }
-section .container .clearfix {
-  padding: 40px 0;
-}
-section .container .clearfix .panel p {
-  font-size: 8px;
-}
-.panel img {
+section .container .megabox .panel img {
   height: 25px;
 }
 /** END SECTION **/
@@ -365,7 +362,6 @@ footer .center .menu {
 footer .center ul li {
   margin: auto;
   font-size: 15px;
-  display: inline-block;
 }
 footer .bottom {
   padding-top: 25px;
