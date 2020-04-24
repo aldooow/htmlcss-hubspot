@@ -477,8 +477,44 @@
       </div>
 
     </footer>
-
     <!-- END FOOTER -->
+
+    <!-- PROVA CHATBOT -->
+    <!-- Begin Script -->
+
+    <button class="open-button" onclick="openForm()"><i class="far fa-comments"></i></button>
+
+
+    <div class="chat-popup" id="myForm">
+      <div class="nuve">
+        <form action="/action_page.php">
+        <h1>Chat</h1>
+
+        <label for="msg"><b>Message</b></label>
+        <textarea placeholder="Type message.." name="msg" required></textarea>
+
+        <button type="submit" class="button">Send</button>
+        <span><i class="lama fas fa-comments"></i></span>
+        <button class="open-button" onclick="closeForm()"><i class="fas fa-comment-slash"></i></button>
+
+
+      </form>
+
+      </div>
+
+
+    <script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    </script>
+
+    <!-- End Script -->
+    <!-- PROVA CHATBOT -->
 
   </body>
 </html>

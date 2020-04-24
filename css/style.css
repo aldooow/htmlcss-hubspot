@@ -370,3 +370,67 @@ footer .copyright {
   color: white;
 }
 /** END FOOTER **/
+
+
+
+/* PROVA CHATBOT */
+.open-button {
+  background-color: #fe765a;
+  color: white;
+  border: none;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 150px;
+  right: 165px;
+  border: none;
+  z-index: 9;
+}
+.lama {
+  display: none;
+  position: fixed;
+  border: none;
+  z-index: 9;
+  right: 185px;
+  bottom: 130px;
+  color: white;
+  background: none;
+}
+.fas.fa-comments {
+  font-size: 100px;
+  color: lightblue;
+}
+/* Add styles to the form container */
+.nuve {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 5%;
+}
+/* Full-width textarea */
+.nuve textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 50px;
+  border-radius: 5%;
+}
+
+body button .far,
+body button .fas {
+  font-size: 50px;
+}
+
+/* END PROVA CHATBOT */
