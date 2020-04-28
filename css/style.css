@@ -146,6 +146,7 @@ header .line {
 /** END HEADER  **/
 
 /** MAIN **/
+/* MAIN TOP */
 main {
   background: #f4f9fd;
 }
@@ -221,25 +222,25 @@ main .box a {
   margin-top: 30px;
 }
 /* end main raw3 */
-/** END MAIN **/
+/* END MAIN TOP */
 
-/** SECTION **/
-section {
+/* MAIN SECTION */
+main .section {
   color: white;
   text-align: center;
   background: linear-gradient(#00bba6, #00aab8);
 }
-section h2 {
+main .section h2 {
   font-size: 40px;
 }
-section .container .tittle {
+main .section .container .tittle {
   padding-top: 40px;
 }
-section .container .megabox {
+main .section .container .megabox {
   width: 100%;
   padding: 40px 0;
 }
-section .container .megabox .panel {
+main .section .container .megabox .panel {
   width: 25%;
   margin: 0px;
   border: 1px solid white;
@@ -247,86 +248,89 @@ section .container .megabox .panel {
   border-top: none;
   border-left: none;
 }
-section .container .megabox .panel:nth-child(1n+5) {
+main .section .container .megabox .panel:nth-child(1n+5) {
   border-bottom: none;
 }
-section .container .megabox .panel:nth-child(4n+4) {
+main .section .container .megabox .panel:nth-child(4n+4) {
   border-right: none;
 }
-section .container .megabox .panel p {
+main .section .container .megabox .panel p {
   font-size: 12px;
 }
-section .container .megabox .panel img {
+main .section .container .megabox .panel img {
   height: 25px;
 }
-/** END SECTION **/
+/* MAIN SECTION */
 
-/** FIGURE **/
-figure {
+/* MAIN FIGURE */
+.figure {
   background: White;
 }
 /* FIGURE TOP */
-figure .container .top {
+.figure .container .top {
   height: 250px;
 }
-figure .container .top .left {
+.figure .container .top .left {
   width: 40%;
   padding: 45px;
 }
-figure .container .top .right {
+.figure .container .top .right {
   width: 60%;
   padding: 45px;
 }
-figure .top .left {
+.figure .top .left {
   width: 25%;
 }
-figure .top .left div {
+.figure .top .left div {
   padding: 15px 50px;
   text-align: center;
 }
-figure .top .left div h2 {
+.figure .top .left div h2 {
   font-size: 40px;
 }
-figure .top .right img {
+.figure .top .right img {
   width: 25%;
+  height: auto;
   padding: 15px;
 }
 /* END FIGURE TOP */
 
 /* FIGURE BOTTOM */
-figure .container .bottom {
+.figure .container .bottom {
   height: 400px;
 }
-figure .container .bottom .left {
+.figure .container .bottom .left {
   width: 50%;
   padding: 45px;
 }
-figure .container .bottom .left .cta h4 {
+.figure .container .bottom .left .cta h4 {
   font-size: 30px;
   margin-bottom: 25px;
 }
-figure .container .bottom .left .cta a.button {
+.figure .container .bottom .left .cta a.button {
   display: inline-block;
   padding: 20px 40px;
   margin: 25px 0;
 }
-figure .container .bottom .left .cta p:last-child {
+.figure .container .bottom .left .cta p:last-child {
   font-size: 10px;
 }
-figure .container .bottom .right {
+.figure .container .bottom .right {
   position: relative;
   height: 100%;
   width: 50%;
   padding: 45px;
 }
-figure .container .bottom .right img {
+.figure .container .bottom .right img {
   width: 250px;
+  height: auto;
   position: absolute;
   right: 0;
   bottom: 100px;
 }
 /* END FIGURE BOTTOM */
-/** END FIGURE **/
+/* END MAIN FIGURE */
+/** END MAIN **/
 
 /** FOOTER**/
 footer {
